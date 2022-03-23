@@ -19,7 +19,7 @@ const Title = styled.div`
 function App() {
   return (
     <div>
-      <Circle bgColor="teal" />
+      <Circle borderColor="yellow" bgColor="teal"></Circle>
       <Circle bgColor="tomato" />
     </div>
   );

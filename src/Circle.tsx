@@ -19,7 +19,7 @@ interface CircleProps {
 }
 
 const Circle = ({ bgColor, borderColor }: CircleProps) => {
-  const [conter, setCounter] = useState<number | string>(1);
+  const [conter, setCounter] = useState<number | string>(1); // 문자열과 숫자열 둘다 ts 허용시키기 <number | string>
   setCounter("야");
 
   return (
